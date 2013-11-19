@@ -162,5 +162,6 @@ function draw() {	//specialna funkcia v koqto shte pishem koda za risuvane. Shte
     context.closePath();
     context.stroke();
 }
+
 update();
 draw();
