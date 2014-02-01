@@ -43,7 +43,8 @@ function dotProduct(a, b) {
     return a.x * b.x + a.y * b.y;
 }
 
-function ball(x, y, radius, color = "black") {
+function ball(x, y, radius, color) {
+    if(color == undefined){color = "black";}
     this.pos = new vector(x, y);
     this.force = new vector(0, 0);
     this.radius = radius;
