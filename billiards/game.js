@@ -137,7 +137,7 @@ function update() {
     }
 
     /***************** do tuk moje da pipash *****************/
-	setTimeout(update, 5);
+	setTimeout(update, 10);
 }
 
 function draw() {
