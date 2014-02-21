@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="client.js"></script>
+        <style>
+            #messages {
+                height: 300px;
+                width: 300px;
+                overflow-height: auto;
+            }
+        </style>
+    </head>
+    <body>
+    <div id="messages">
+    </div>
+    <textarea id="msg"></textarea>
+    <br />
+    <button id="submit" onclick="submit()">Прати</button>
+    </body>
+</html>
